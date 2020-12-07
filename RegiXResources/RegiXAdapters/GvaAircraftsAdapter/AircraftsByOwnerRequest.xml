@@ -1,0 +1,38 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:fdb18923-d55f-4c20-9c45-ed22c9e29eb7</a:MessageID>
+    <ActivityId CorrelationId="4b991f03-c247-42ec-b589-3274b42315af" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">44233b42-315c-4471-8ae4-b1e00fde847b</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.GvaAircraftsAdapter.APIService.IGvaAircraftsAPI.GetAircraftsByOwner</Operation>
+        <Argument>
+          <AircraftsByOwnerRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/GVA/AircraftsByOwnerRequest">
+            <OwnerID>1234567890</OwnerID>
+            <DateFrom>2000-01-01</DateFrom>
+            <DateTo>2016-01-01</DateTo>
+          </AircraftsByOwnerRequest>
+        </Argument>
+        <CallContext>
+          <ServiceURI />
+          <ServiceType>За административна услуга</ServiceType>
+          <EmployeeIdentifier>tl_ndimitrova</EmployeeIdentifier>
+          <EmployeeNames>Надя Димитрова</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>Програмист</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.1.1.15</AdministrationOId>
+          <AdministrationName>Министерство на транспорта, информационните технологии и съобщенията</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>true</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

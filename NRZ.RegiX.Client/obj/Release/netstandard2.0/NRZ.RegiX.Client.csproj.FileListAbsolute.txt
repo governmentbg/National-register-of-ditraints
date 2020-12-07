@@ -1,0 +1,12 @@
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\bin\Release\netstandard2.0\NRZ.RegiX.Client.deps.json
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\bin\Release\netstandard2.0\NRZ.RegiX.Client.dll
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\bin\Release\netstandard2.0\NRZ.RegiX.Client.pdb
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\bin\Release\netstandard2.0\NRZ.Certificate.dll
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\bin\Release\netstandard2.0\NRZ.Certificate.pdb
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.csprojAssemblyReference.cache
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.AssemblyInfoInputs.cache
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.AssemblyInfo.cs
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.csproj.CoreCompileInputs.cache
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.csproj.CopyComplete
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.dll
+D:\Work\NRZ\NRZ\NRZ.RegiX.Client\obj\Release\netstandard2.0\NRZ.RegiX.Client.pdb

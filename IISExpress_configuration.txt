@@ -1,0 +1,18 @@
+За да изисква IISExpress клиентски сертификат:
+В .vs\config\applicationhost.config
+
+<configuration>
+    <configSections>
+        <sectionGroup name="system.webServer">
+            <sectionGroup name="security">
+                <section name="access" overrideModeDefault="Deny" />
+            </sectionGroup>
+        </sectionGroup>
+    </configSections>
+</configuration>
+
+=>
+
+<section name="access" overrideModeDefault="Deny" />
+се променя на
+<section name="access" overrideModeDefault="Allow" />

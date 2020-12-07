@@ -1,0 +1,11 @@
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\bin\Release\netstandard2.0\in-csp-root.cer
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\bin\Release\netstandard2.0\TSA.crt
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\bin\Release\netstandard2.0\NRZ.Ts.Client.deps.json
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\bin\Release\netstandard2.0\NRZ.Ts.Client.dll
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\bin\Release\netstandard2.0\NRZ.Ts.Client.pdb
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.csprojAssemblyReference.cache
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.AssemblyInfoInputs.cache
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.AssemblyInfo.cs
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.csproj.CoreCompileInputs.cache
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.dll
+D:\Work\NRZ\NRZ\NRZ.Ts.Client\obj\Release\netstandard2.0\NRZ.Ts.Client.pdb

@@ -1,0 +1,51 @@
+﻿@model NRZ.Models.EAuthentication.EAuthRequestViewModel
+
+<html>
+<head>
+    <title>еАвт на физическо лице</title>
+</head>
+
+<body>
+    @if (Model.EAuthUrl != null && Model.SAMLRequest != null)
+    {
+        <form id="eauth-form" action="@Html.DisplayFor(model => model.EAuthUrl)" method="post">
+            @Html.HiddenFor(model => model.SAMLRequest)
+            @Html.HiddenFor(model => model.RelayState)
+            <div class="clearfix">
+                <input id="eauth-submit-button" type="submit" class="btn btn-primary col-md-2" value="Изпращане" />
+            </div>
+        </form>
+        <div id="eauth-wait" class="alert alert-warning collapse">Моля изчакайте...</div>
+        <div id="eauth-error" class="alert alert-danger collapse">Възникна грешка в комуникацията със системата eAuth:</div>
+    }
+
+<pre style="max-height: 800px">@Html.DisplayFor(model => model.SamlRequestBeautified)</pre>
+
+    <dl class="dl-horizontal" style="word-wrap: break-word">
+        <dt>@Html.DisplayNameFor(model => model.SignatureStatusName)</dt>
+        <dd>@Html.DisplayFor(model => model.SignatureStatusName)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.SamlRequestDecoded)</dt>
+        <dd>
+            @if (!string.IsNullOrEmpty(Model.SamlRequestDecoded))
+            {
+                foreach (string line in Model.SamlRequestDecoded.Split(new string[] { Environment.NewLine }, StringSplitOptions.None))
+                {
+                    @line<br />
+                }
+            }
+        </dd>
+
+        <dt>@Html.DisplayNameFor(model => model.RelayStateDecoded)</dt>
+        <dd>@Html.DisplayFor(model => model.RelayStateDecoded)</dd>
+
+        <dd><br /><u>Горните данни се изпращат кодирани по следния начин:</u><br /><br /></dd>
+
+        <dt>@Html.DisplayNameFor(model => model.SAMLRequest)</dt>
+        <dd>@Html.DisplayFor(model => model.SAMLRequest)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.RelayState)</dt>
+        <dd>@Html.DisplayFor(model => model.RelayState)</dd>
+    </dl>
+</body>
+</html>

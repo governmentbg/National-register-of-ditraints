@@ -1,0 +1,39 @@
+[
+    
+    {
+        "text": "Action name", "value": "actionName"
+    },
+    {
+        "text": "Controller", "value": "controller"
+    },
+    {
+        "text": "Data", "value": "data"
+    },
+    {
+        "text": "Id", "value": "id"
+    },
+    {
+        "text": "Message", "value": "message"
+    },
+    {
+        "text": "Request method", "value": "requestMethod"
+    },
+    {
+        "text": "Result", "value": "result" 
+    },
+    {
+        "text": "Server time utc", "value": "serverTimeUtc"
+    },
+    {
+        "text": "User id", "value": "userId"
+    },
+    {
+        "text": "Ip", "value": "ip"
+    },
+    {
+        "text": "Duration", "value": "duration"
+    },
+    {
+        "text": "Response status code", "value": "responseStatusCode"
+    }
+]

@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:77fbe6fd-1a97-47ca-9f5d-6dfeae4409c3</a:MessageID>
+    <ActivityId CorrelationId="611cfb81-00c1-4cb3-b1dc-9ca701b3a808" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">cb71a79e-682b-4746-a2c7-e691e670ffb0</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.GraoNBDAdapter.APIService.INBDAPI.RelationsSearch</Operation>
+        <Argument>
+          <RelationsRequestType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/GRAO/NBD/RelationsRequest">
+            <EGN>8506258485</EGN>
+          </RelationsRequestType>
+        </Argument>
+        <CallContext>
+          <ServiceURI>132-11123-01.01.2016</ServiceURI>
+          <ServiceType>За проверовъчна дейност</ServiceType>
+          <EmployeeIdentifier>tl_ytoteva</EmployeeIdentifier>
+          <EmployeeNames>Йорданка Тотева</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>SW Developer</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.1.1.15</AdministrationOId>
+          <AdministrationName>Министерство на транспорта, информационните технологии и съобщенията</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>true</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

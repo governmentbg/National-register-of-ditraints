@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:fdc26d91-d9eb-461a-ab6a-36a737beed8a</a:MessageID>
+    <ActivityId CorrelationId="fe710f9a-7511-4a09-a60f-9af71d66cf92" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">cc639794-89a7-481f-b841-0afef60ef39e</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.GvaAircraftsAdapter.APIService.IGvaAircraftsAPI.GetAircraftsByMSN</Operation>
+        <Argument>
+          <AircraftsByMSNRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/GVA/AircraftsByMSNRequest">
+            <MSN>123</MSN>
+          </AircraftsByMSNRequest>
+        </Argument>
+        <CallContext>
+          <ServiceURI />
+          <ServiceType>За административна услуга</ServiceType>
+          <EmployeeIdentifier>tl_ndimitrova</EmployeeIdentifier>
+          <EmployeeNames>Надя Димитрова</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>Програмист</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.1.1.15</AdministrationOId>
+          <AdministrationName>Министерство на транспорта, информационните технологии и съобщенията</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>true</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

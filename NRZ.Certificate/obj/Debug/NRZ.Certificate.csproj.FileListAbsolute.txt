@@ -1,0 +1,6 @@
+D:\Work\NRZ\NRZ\NRZ.Certificate\obj\Debug\NRZ.Certificate.csprojAssemblyReference.cache
+D:\Work\NRZ\NRZ\NRZ.Certificate\obj\Debug\NRZ.Certificate.csproj.CoreCompileInputs.cache
+D:\Work\NRZ\NRZ\NRZ.Certificate\obj\Debug\NRZ.Certificate.dll
+D:\Work\NRZ\NRZ\NRZ.Certificate\obj\Debug\NRZ.Certificate.pdb
+D:\Work\NRZ\NRZ\NRZ.Certificate\NRZ.Certificate.dll
+D:\Work\NRZ\NRZ\NRZ.Certificate\NRZ.Certificate.pdb

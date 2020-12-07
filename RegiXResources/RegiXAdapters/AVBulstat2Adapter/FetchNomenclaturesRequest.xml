@@ -1,0 +1,33 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:66f84204-08db-4bf3-a15d-85204c5e719e</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.AVBulstat2Adapter.APIService.IAVBulstat2API.FetchNomenclatures</Operation>
+        <Argument>
+          <FetchNomenclatures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.bulstat.bg/StateOfPlayService" />
+        </Argument>
+        <CallContext>
+          <ServiceURI>test</ServiceURI>
+          <ServiceType>За административна услуга</ServiceType>
+          <EmployeeIdentifier>defaultuser</EmployeeIdentifier>
+          <EmployeeNames>Администратор</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>Администратор</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.8.1.2</AdministrationOId>
+          <AdministrationName>Агенция "Митници"</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark>test</Remark>
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>false</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

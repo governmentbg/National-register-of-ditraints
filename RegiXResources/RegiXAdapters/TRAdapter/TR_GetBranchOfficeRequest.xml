@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:58921423-2a58-444e-bc50-2cc50b870471</a:MessageID>
+    <ActivityId CorrelationId="5fc90f64-a0cd-4cab-8abb-70637dbd29e2" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">500a5029-7360-421e-98ce-f4665f667506</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.GetBranchOffice</Operation>
+        <Argument>
+          <GetBranchOfficeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/AV/TR/GetBranchOfficeRequest">
+            <UIC>5637265317345</UIC>
+          </GetBranchOfficeRequest>
+        </Argument>
+        <CallContext>
+          <ServiceURI>123542</ServiceURI>
+          <ServiceType>За административна услуга</ServiceType>
+          <EmployeeIdentifier>defaultuser</EmployeeIdentifier>
+          <EmployeeNames>Администратор</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>Администратор</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.8.1.2</AdministrationOId>
+          <AdministrationName>Агенция "Митници"</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>false</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

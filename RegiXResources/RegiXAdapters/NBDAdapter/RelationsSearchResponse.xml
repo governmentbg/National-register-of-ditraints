@@ -1,0 +1,173 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronousResponse</a:Action>
+    <ActivityId CorrelationId="8291f5f8-d476-4b92-98a1-cf39f7428eee" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">cb71a79e-682b-4746-a2c7-e691e670ffb0</ActivityId>
+    <a:RelatesTo>urn:uuid:77fbe6fd-1a97-47ca-9f5d-6dfeae4409c3</a:RelatesTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronousResponse xmlns="http://tempuri.org/">
+      <ExecuteSynchronousResult>
+        <IsReady>true</IsReady>
+        <Data id="data">
+          <Request id="request">
+            <RelationsRequestType xmlns="http://egov.bg/RegiX/GRAO/NBD/RelationsRequest">
+              <EGN>8506258485</EGN>
+            </RelationsRequestType>
+          </Request>
+          <Response id="response">
+            <RelationsResponse xmlns="http://egov.bg/RegiX/GRAO/NBD/RelationsResponse">
+              <PersonRelations>
+                <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Баща</RelationCode>
+                <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">2208251420</EGN>
+                <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1922-08-25</BirthDate>
+                <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Димитър</FirstName>
+                <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Иванов</SurName>
+                <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Димитров</FamilyName>
+                <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <GenderCode>1</GenderCode>
+                  <GenderName>Мъж</GenderName>
+                </Gender>
+                <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <NationalityCode>BG</NationalityCode>
+                  <NationalityName>България</NationalityName>
+                  <NationalityCode2>US</NationalityCode2>
+                  <NationalityName2>САЩ</NationalityName2>
+                </Nationality>
+                <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1933-01-01</DeathDate>
+              </PersonRelations>
+              <PersonRelations>
+                <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Майка</RelationCode>
+                <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">22040316678</EGN>
+                <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1922-01-11</BirthDate>
+                <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Надежда</FirstName>
+                <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Живкова</SurName>
+                <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Димитрова</FamilyName>
+                <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <GenderCode>2</GenderCode>
+                  <GenderName>Жена</GenderName>
+                </Gender>
+                <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <NationalityCode>BG</NationalityCode>
+                  <NationalityName>България</NationalityName>
+                  <NationalityCode2 />
+                  <NationalityName2 />
+                </Nationality>
+                <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">2005-01-05</DeathDate>
+              </PersonRelations>
+              <PersonRelations>
+                <RelationCode xmlns="http://egov.bg/RegiX/GRAO/NBD">Сестра</RelationCode>
+                <EGN xmlns="http://egov.bg/RegiX/GRAO/NBD">55040316678</EGN>
+                <BirthDate xmlns="http://egov.bg/RegiX/GRAO/NBD">1955-01-11</BirthDate>
+                <FirstName xmlns="http://egov.bg/RegiX/GRAO/NBD">Валя</FirstName>
+                <SurName xmlns="http://egov.bg/RegiX/GRAO/NBD">Димитрова</SurName>
+                <FamilyName xmlns="http://egov.bg/RegiX/GRAO/NBD">Димитрова</FamilyName>
+                <Gender xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <GenderCode>2</GenderCode>
+                  <GenderName>Жена</GenderName>
+                </Gender>
+                <Nationality xmlns="http://egov.bg/RegiX/GRAO/NBD">
+                  <NationalityCode>BG</NationalityCode>
+                  <NationalityName>България</NationalityName>
+                  <NationalityCode2 />
+                  <NationalityName2 />
+                </Nationality>
+                <DeathDate xmlns="http://egov.bg/RegiX/GRAO/NBD">2005-01-05</DeathDate>
+              </PersonRelations>
+            </RelationsResponse>
+          </Response>
+          <Matrix id="AccessMatrix">
+            <HasAccess>true</HasAccess>
+            <Name>RelationsResponseType</Name>
+            <Properties>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.BirthDate</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.DeathDate</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.EGN</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.FamilyName</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.FirstName</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Gender</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Gender.GenderCode</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Gender.GenderName</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Nationality</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Nationality.NationalityCode</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Nationality.NationalityCode2</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Nationality.NationalityName</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.Nationality.NationalityName2</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.RelationCode</Name>
+              </Property>
+              <Property>
+                <HasAccess>true</HasAccess>
+                <Name>PersonRelations.SurName</Name>
+              </Property>
+            </Properties>
+          </Matrix>
+        </Data>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="#data">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>BC1+/c3aXsOWeWOBC6GSPj9N5+w=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>gaLydRZjeFvo2dXJfHxNMdmUlYFrvjY8bUSoOqywf8xuN59a1SIpUMaanLmjONtWTxmeb/AV6D//b44jTQu2btv9vmhcBaVBztVhQR2QU0TiKO5YFAQNPP8i2G1z/oIOPCVqRJYc77xJo7C6KxqvhQbHHM5V9SEOnq1kkQLAqf8=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIFojCCBIqgAwIBAgITIgAAAB/eto3AD3FBQgABAAAAHzANBgkqhkiG9w0BAQwFADBqMRIwEAYKCZImiZPyLGQBGRYCYmcxFDASBgoJkiaJk/IsZAEZFgRlZ292MRowGAYKCZImiZPyLGQBGRYKcmVnaXgtdGVzdDEiMCAGA1UEAxMZcmVnaXgtdGVzdC1FR1AwMy1SQURNVC1DQTAeFw0xNTExMTYxMTQ0MzhaFw0yMDExMDMwNzQwMjVaMDYxCzAJBgNVBAYTAkJHMScwJQYDVQQDEx5lZ3AwMy1yYWRwdC5yZWdpeC10ZXN0LmVnb3YuYmcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL9ZlVN5Ii6L8jfVq81akr7R3c8PlWNNufqNPLX4+cEdHOYfrWYVGgJMV/nlg2RhQ/xaYgQY4gI152EAii203705YGeo9iIxs23sRqy0KbyM8D5tQDbg/wZsAjCqZlmUoSWj4g3bzDShDqO9k4l/4eAYcBzzdWlZ5Dy/55ViF0ulAgMBAAGjggL3MIIC8zALBgNVHQ8EBAMCBeAwKQYDVR0lBCIwIAYIKwYBBQUHAwEGCCsGAQUFBwMCBgorBgEEAYI3CgMMMDUGCSsGAQQBgjcVCgQoMCYwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwDAYKKwYBBAGCNwoDDDAPBgNVHRMBAf8EBTADAgEAMB0GA1UdDgQWBBQBkoEu2Sp+NOJLwA+kiNpDpj+7lTBOBgNVHREERzBFgglsb2NhbGhvc3SCCTEyNy4wLjAuMYIeZWdwMDMtcmFkcHQucmVnaXgtdGVzdC5lZ292LmJngg0xNzIuMjMuMTA1LjgyMB8GA1UdIwQYMBaAFMGU/z+c2XJkwxcELG3cR0cXv4a6MIHlBgNVHR8Egd0wgdowgdeggdSggdGGgc5sZGFwOi8vL0NOPXJlZ2l4LXRlc3QtRUdQMDMtUkFETVQtQ0EsQ049ZWdwMDMtcmFkbXQsQ049Q0RQLENOPVB1YmxpYyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9cmVnaXgtdGVzdCxEQz1lZ292LERDPWJnP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZT9vYmplY3RDbGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludDCB1QYIKwYBBQUHAQEEgcgwgcUwgcIGCCsGAQUFBzAChoG1bGRhcDovLy9DTj1yZWdpeC10ZXN0LUVHUDAzLVJBRE1ULUNBLENOPUFJQSxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1cmF0aW9uLERDPXJlZ2l4LXRlc3QsREM9ZWdvdixEQz1iZz9jQUNlcnRpZmljYXRlP2Jhc2U/b2JqZWN0Q2xhc3M9Y2VydGlmaWNhdGlvbkF1dGhvcml0eTAhBgkrBgEEAYI3FAIEFB4SAFcAZQBiAFMAZQByAHYAZQByMA0GCSqGSIb3DQEBDAUAA4IBAQBC5IE425kmjiLBEJXmydrsXiSfFTu+aqCClp9SZ+43PWE0mP7C/mGJ7RvNJ8bHfi66fKUhoIVJJ28+5IjDaGgKUP/SI3rZjj5wlpC+VbalzjoQ++AI8o5E7BVUMT2Rs8lURDVceuAU6hvWJpyGw2W3WwUG9sqK5+sOV8M8J5VySHDenVGllYNr/89j9htDG/+OoovYeyeGzFBfVzuR0GiNFD+o9FMAz46czswfpJgd8cmHzTsUXbRkD8iWXgMrpkAWIQ5QzgeBZPALJYP1eOQu1t0GV0kaupHg1QgVpElKfA9dsKxi/jurGPPa8Brw7DqSn8QDquHH2Ex/R7yCjl5M</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+        <HasError>false</HasError>
+        <Error xsi:nil="true" />
+      </ExecuteSynchronousResult>
+    </ExecuteSynchronousResponse>
+  </s:Body>
+</s:Envelope>

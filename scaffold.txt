@@ -1,0 +1,3 @@
+Scaffold-DBContext "Server=testsql\sql2017;Database=NRZ;User ID=sa; Password=kontrax;" Microsoft.EntityFrameworkCore.SqlServer -Context NRZContext -force -Project NRZ.Data
+
+--Scaffold-DBContext name="DefaultConnection" Microsoft.EntityFrameworkCore.SqlServer -Context NRZContext -force -Project NRZ.Data

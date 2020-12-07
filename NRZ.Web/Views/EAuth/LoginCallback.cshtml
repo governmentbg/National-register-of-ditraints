@@ -1,0 +1,45 @@
+﻿@using NRZ.Web.Controllers
+@model NRZ.EAuthentication.Model.EAuthResponseModel
+
+@{
+    ViewBag.Title = "Резултат от еАвт на физическо лице";
+    var backRouteValues = new
+    {
+        serviceOid = EAuthController.RequestedServiceOid,
+        providerOid = EAuthController.RequestedProviderOid,
+        signatureNsPrefix = "ds",
+        includePublicKey = false
+    };
+}
+
+@*@section Subtitle {
+    @Html.ActionLink("Назад към еАвт на физическо лице", "PersonRequest", "EAuth", backRouteValues, null)
+}*@
+
+<div class="row">
+    <dl class="dl-horizontal col-md-6">
+        <dt>@Html.DisplayNameFor(model => model.PersonIdentifier)</dt>
+        <dd>
+            @Html.DisplayFor(model => model.PidTypeCode)
+            @Html.DisplayFor(model => model.PersonIdentifier)
+        </dd>
+    </dl>
+    <dl class="dl-horizontal col-md-6">
+        <dt>@Html.DisplayNameFor(model => model.PersonNamesLatin)</dt>
+        <dd>@Html.DisplayFor(model => model.PersonNamesLatin)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd>@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Phone)</dt>
+        <dd>@Html.DisplayFor(model => model.Phone)</dd>
+    </dl>
+</div>
+
+<dl class="dl-horizontal" style="word-wrap: break-word">
+    <dt>@Html.DisplayNameFor(model => model.SamlResponse)</dt>
+    <dd>@Html.DisplayFor(model => model.SamlResponse)</dd>
+
+    <dt>@Html.DisplayNameFor(model => model.RelayState)</dt>
+    <dd>@Html.DisplayFor(model => model.RelayState)</dd>
+</dl>

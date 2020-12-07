@@ -1,0 +1,18 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "ExtendedData": {
+    "inputs": [
+      "https://edelivery.egov.bg/Services/EDeliveryIntegrationService.svc"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, EDeliveryServiceReference"
+    ],
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "None"
+  }
+}

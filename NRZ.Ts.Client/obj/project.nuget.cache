@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gb9ogTc+sMy2YTq9QgUcF7jOMWnK/kyb3Sw/Sofj65++Ecr+tsQC4jpf6Rk48a+me/ZHXVkOBAhonpiO1zM+FA==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\NRZ\\NRZ\\NRZ.Ts.Client\\NRZ.Ts.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\portable.bouncycastle\\1.8.5\\portable.bouncycastle.1.8.5.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\timestampclient\\1.1.0\\timestampclient.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

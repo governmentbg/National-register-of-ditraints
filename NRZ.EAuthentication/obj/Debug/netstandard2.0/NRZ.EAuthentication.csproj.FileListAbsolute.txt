@@ -1,0 +1,12 @@
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\bin\Debug\netstandard2.0\NRZ.EAuthentication.deps.json
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\bin\Debug\netstandard2.0\NRZ.EAuthentication.dll
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\bin\Debug\netstandard2.0\NRZ.EAuthentication.pdb
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\bin\Debug\netstandard2.0\NRZ.Certificate.dll
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\bin\Debug\netstandard2.0\NRZ.Certificate.pdb
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.csprojAssemblyReference.cache
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.AssemblyInfoInputs.cache
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.AssemblyInfo.cs
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.csproj.CoreCompileInputs.cache
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.csproj.CopyComplete
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.dll
+D:\Work\NRZ\NRZ\NRZ.EAuthentication\obj\Debug\netstandard2.0\NRZ.EAuthentication.pdb

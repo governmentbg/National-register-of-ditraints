@@ -1,0 +1,23 @@
+[
+    {
+        "text": "Registration number",
+        "value": "registrationNumber"
+    },
+    {
+        "text": "Frame number",
+        "value": "frameNumber"
+    },
+    {
+        "text": "Type",
+        "value": "type"
+    },
+    {
+        "text": "Owner",
+        "value": "owner"
+    },
+    {
+        "text": "Actions",
+        "value": "actions",
+        "sortable": false
+    }
+]

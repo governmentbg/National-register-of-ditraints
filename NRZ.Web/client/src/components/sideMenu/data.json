@@ -1,0 +1,105 @@
+[{
+        "name": "menu.home",
+        "to": "/",
+        "icon": "home",
+        "hasChildren": "false"
+    },
+    {
+        "name": "menu.distraints",
+        "to": "/distraints/list",
+        "icon": "fas fa-lock",
+        "hasChildren": "false"
+    },
+    {
+        "name": "menu.publicSale",
+        "icon": "fas fa-gavel",
+        "hasChildren": "true",
+        "children": [{
+                "name": "menu.announcements",
+                "to": "/announcements/my",
+                "icon": "fas fa-list"
+            },
+            {
+                "name": "menu.auctionRegistrations",
+                "to": "/announcements/registrations",
+                "icon": "far fa-id-badge"
+            },
+            {
+                "name": "menu.auctions",
+                "to": "/auctions/my",
+                "icon": "fas fa-gavel"
+            }
+        ]
+    },
+    {
+        "name": "menu.requestsForCertificateOfDistraintOfPropertyList",
+        "to": "/certificateOfDistraintOfProperty/list",
+        "icon": "far fa-file-alt",
+        "hasChildren": "false",
+        "roles": ["SysAdmin", "MJAdmin"]
+    },
+    {
+        "name": "menu.agriculturalMachinery",
+        "to": "/agriculturalMachinery",
+        "icon": "fa-tractor",
+        "hasChildren": "false"
+    },
+    {
+        "name": "menu.seizedPropertyAvailabilityRequest",
+        "icon": "roofing",
+        "hasChildren": "true",
+        "children": [{
+                "name": "menu.request",
+                "to": "/seizedPropertyAvailability/request",
+                "icon": ""
+            },
+            {
+                "name": "menu.listOfRequests",
+                "to": "/seizedPropertyAvailability/list",
+                "icon": "",
+                "roles": ["SysAdmin", "MJAdmin"]
+            }
+        ]
+    },
+    {
+        "name": "menu.administration",
+        "icon": "admin_panel_settings",
+        "hasChildren": "true",
+        "children": [{
+                "name": "menu.users",
+                "to": "/admin/users",
+                "icon": "person"
+            },
+            {
+                "name": "menu.usersRoles",
+                "to": "/admin/usersRoles",
+                "icon": "fas fa-user-shield"
+            },
+            {
+                "name": "menu.logs",
+                "to": "/admin/logs",
+                "icon": "fas fa-list-ul"
+            },
+            {
+                "name": "menu.systemSettings",
+                "to": "/admin/systemSettings",
+                "icon": "fas fa-cog"
+            },
+            {
+                "name": "menu.timestamp",
+                "to": "/admin/timestamp",
+                "icon": "fas fa-cog"
+            },
+            {
+                "name": "menu.ePayments",
+                "to": "/ePayments/list",
+                "icon": "fas fa-dollar-sign"
+            }
+        ],
+        "commented": [{
+            "name": "menu.usersGroups",
+            "to": "/admin/usersGroup",
+            "icon": "groups"
+        }]
+    }
+]

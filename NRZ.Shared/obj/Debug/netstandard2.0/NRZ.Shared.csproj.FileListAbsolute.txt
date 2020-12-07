@@ -1,0 +1,16 @@
+D:\Work\NRZ\NRZ\NRZ.Shared\bin\Debug\netstandard2.0\NRZ.Shared.deps.json
+D:\Work\NRZ\NRZ\NRZ.Shared\bin\Debug\netstandard2.0\NRZ.Shared.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\bin\Debug\netstandard2.0\NRZ.Shared.pdb
+D:\Work\NRZ\NRZ\NRZ.Shared\bin\Debug\netstandard2.0\bg\NRZ.Shared.resources.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\bin\Debug\netstandard2.0\en\NRZ.Shared.resources.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.csprojAssemblyReference.cache
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.csproj.GenerateResource.cache
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.AssemblyInfoInputs.cache
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.AssemblyInfo.cs
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.csproj.CoreCompileInputs.cache
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\bg\NRZ.Shared.resources.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\en\NRZ.Shared.resources.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.dll
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.pdb
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.Localization.SharedResources.bg.resources
+D:\Work\NRZ\NRZ\NRZ.Shared\obj\Debug\netstandard2.0\NRZ.Shared.Localization.SharedResources.en.resources

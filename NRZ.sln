@@ -1,0 +1,301 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Web", "NRZ.Web\NRZ.Web.csproj", "{060BB19C-5FB9-4402-A7AC-107B5ABE0FBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{FB4FEF5D-8ACB-442E-82AF-ACB79F8EE3EE}"
+	ProjectSection(SolutionItems) = preProject
+		scaffold.txt = scaffold.txt
+		seed.sql = seed.sql
+		upgrade.sql = upgrade.sql
+		upgrade_0.sql = upgrade_0.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Data", "NRZ.Data\NRZ.Data.csproj", "{17CE064A-02AF-42A0-A32A-E9B79E35C3B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Services", "NRZ.Services\NRZ.Services.csproj", "{018A326D-0AD3-4B89-9415-00A14E3C61F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Models", "NRZ.Models\NRZ.Models.csproj", "{F5206A21-D531-4B12-94B2-4DD4FE9C5034}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Shared", "NRZ.Shared\NRZ.Shared.csproj", "{04EBD984-D80A-49C4-BFB0-54ECA899FB14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRZ.Certificate", "NRZ.Certificate\NRZ.Certificate.csproj", "{D4383270-E93B-40D6-B84C-3EF110C69D28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.RegiX.Client", "NRZ.RegiX.Client\NRZ.RegiX.Client.csproj", "{22270AE0-3BAA-4083-98CE-F4964DF9098C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegiXResources", "RegiXResources", "{25895CE2-CC7B-463A-A10B-29D344FCB4C1}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXEntryPoint.wsdl = RegiXResources\RegiXEntryPoint.wsdl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegiXAdapters", "RegiXAdapters", "{EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AVBulstat2Adapter", "AVBulstat2Adapter", "{9F95B34D-A787-4422-84A3-05AB3AEE5A8E}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Address.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Address.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Case.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Case.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Communication.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Communication.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Document.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Document.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Entry.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Entry.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Event.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Event.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclatures.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclatures.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclaturesRequest.xml = RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclaturesRequest.xml
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclaturesResponse.xml = RegiXResources\RegiXAdapters\AVBulstat2Adapter\FetchNomenclaturesResponse.xml
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\GetStateOfPlayRequest.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\GetStateOfPlayRequest.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\IdentificationDoc.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\IdentificationDoc.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\LegalEntity.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\LegalEntity.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\MetaDefinition.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\MetaDefinition.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\NaturalPerson.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\NaturalPerson.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Nomenclature.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Nomenclature.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\NomenclatureElement.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\NomenclatureElement.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\NomenclatureEntry.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\NomenclatureEntry.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Nomenclatures.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Nomenclatures.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlay.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlay.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlayRequest.xml = RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlayRequest.xml
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlayResponse.xml = RegiXResources\RegiXAdapters\AVBulstat2Adapter\StateOfPlayResponse.xml
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\Subject.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\Subject.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropAccountingRecordForm.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropAccountingRecordForm.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityDate.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityDate.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityKID2003.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityKID2003.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityKID2008.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropActivityKID2008.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropCollectiveBody.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropCollectiveBody.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropFundingSource.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropFundingSource.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropInstallments.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropInstallments.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropLifeTime.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropLifeTime.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropOwnershipForm.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropOwnershipForm.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropProfession.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropProfession.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropRepresentationType.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropRepresentationType.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropScopeOfActivity.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropScopeOfActivity.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropState.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectPropState.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelAssignee.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelAssignee.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelBelonging.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelBelonging.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelCollectiveBodyMember.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelCollectiveBodyMember.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelManager.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelManager.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelPartner.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubjectRelPartner.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubscriptionElement.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\SubscriptionElement.xsd
+		RegiXResources\RegiXAdapters\AVBulstat2Adapter\UIC.xsd = RegiXResources\RegiXAdapters\AVBulstat2Adapter\UIC.xsd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GvaAircraftsAdapter", "GvaAircraftsAdapter", "{A4A786AF-1A80-4D41-A905-78C4BD6CDB64}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNRequest.xml = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNRequest.xml
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNRequest.xsd = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNRequest.xsd
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNResponse.xml = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByMSNResponse.xml
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerRequest.xml = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerRequest.xml
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerRequest.xsd = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerRequest.xsd
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerResponse.xml = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsByOwnerResponse.xml
+		RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsResponse.xsd = RegiXResources\RegiXAdapters\GvaAircraftsAdapter\AircraftsResponse.xsd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVRMPSAdapter", "MVRMPSAdapter", "{2B4C8C62-0FFA-47AD-8741-55C31E5F1181}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoRequest.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoRequest.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoResponse.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoResponse.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Request.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Request.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Request.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Request.xsd
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Response.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Response.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Response.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV2Response.xsd
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Request.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Request.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Request.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Request.xsd
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Response.xml = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Response.xml
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Response.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\GetMotorVehicleRegistrationInfoV3Response.xsd
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\MotorVehicleRegistrationRequest.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\MotorVehicleRegistrationRequest.xsd
+		RegiXResources\RegiXAdapters\MVRMPSAdapter\MotorVehicleRegistrationResponse.xsd = RegiXResources\RegiXAdapters\MVRMPSAdapter\MotorVehicleRegistrationResponse.xsd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NBDAdapter", "NBDAdapter", "{74F1B682-8B98-4DE2-989F-5250864FA457}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\NBDAdapter\NBDCommon.xsd = RegiXResources\RegiXAdapters\NBDAdapter\NBDCommon.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\PersonDataRequest.xsd = RegiXResources\RegiXAdapters\NBDAdapter\PersonDataRequest.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\PersonDataResponse.xsd = RegiXResources\RegiXAdapters\NBDAdapter\PersonDataResponse.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\PersonDataSearchRequest.xml = RegiXResources\RegiXAdapters\NBDAdapter\PersonDataSearchRequest.xml
+		RegiXResources\RegiXAdapters\NBDAdapter\PersonDataSearchResponse.xml = RegiXResources\RegiXAdapters\NBDAdapter\PersonDataSearchResponse.xml
+		RegiXResources\RegiXAdapters\NBDAdapter\RelationsRequest.xsd = RegiXResources\RegiXAdapters\NBDAdapter\RelationsRequest.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\RelationsResponse.xsd = RegiXResources\RegiXAdapters\NBDAdapter\RelationsResponse.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\RelationsSearchRequest.xml = RegiXResources\RegiXAdapters\NBDAdapter\RelationsSearchRequest.xml
+		RegiXResources\RegiXAdapters\NBDAdapter\RelationsSearchResponse.xml = RegiXResources\RegiXAdapters\NBDAdapter\RelationsSearchResponse.xml
+		RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonRequest.xsd = RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonRequest.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonResponse.xsd = RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonResponse.xsd
+		RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonSearchRequest.xml = RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonSearchRequest.xml
+		RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonSearchResponse.xml = RegiXResources\RegiXAdapters\NBDAdapter\ValidPersonSearchResponse.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TRAdapter", "TRAdapter", "{F3FAEB20-AE38-41A4-B692-59F24872763E}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequest.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequest.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV2.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV2.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV2.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV2.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV3.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestV3.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestv3.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateRequestv3.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponse.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponse.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV2.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV2.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV2.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV2.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV3.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponseV3.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponsev3.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ActualStateResponsev3.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetActualStateRequest.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_GetActualStateRequest.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetActualStateResponse.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_GetActualStateResponse.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeRequest.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeRequest.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeRequest.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeRequest.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeResponse.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeResponse.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeResponse.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_GetBranchOfficeResponse.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesRequest.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesRequest.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesRequest.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesRequest.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesResponse.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesResponse.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesResponse.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_SearchParticipationInCompaniesResponse.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICRequest.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICRequest.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICRequest.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICRequest.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICResponse.xml = RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICResponse.xml
+		RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICResponse.xsd = RegiXResources\RegiXAdapters\TRAdapter\TR_ValidUICResponse.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TRCommon.xsd = RegiXResources\RegiXAdapters\TRAdapter\TRCommon.xsd
+		RegiXResources\RegiXAdapters\TRAdapter\TRSubdeedsCommon.xsd = RegiXResources\RegiXAdapters\TRAdapter\TRSubdeedsCommon.xsd
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.EAuthentication", "NRZ.EAuthentication\NRZ.EAuthentication.csproj", "{490E2FD0-BF19-4AC8-8825-0BFA4A6F50A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NRZ.Ts.Client", "NRZ.Ts.Client\NRZ.Ts.Client.csproj", "{A7B5F696-334A-47CE-8268-AEF715321C3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E437FF63-6F30-4E83-BFDE-0059F278233B}"
+	ProjectSection(SolutionItems) = preProject
+		IISExpress_configuration.txt = IISExpress_configuration.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VesselsAdapter", "VesselsAdapter", "{9A5BE16B-1445-4282-A472-8CBF21855C7E}"
+	ProjectSection(SolutionItems) = preProject
+		RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesCommon.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesCommon.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesRequest.xml = RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesRequest.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesRequest.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesRequest.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesResponse.xml = RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesResponse.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesResponse.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\GetNomenclaturesResponse.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchCommon.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchCommon.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchRequest.xml = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchRequest.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchRequest.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchRequest.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchResponse.xml = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchResponse.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchResponse.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationByCharacteristicsSearchResponse.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerCommon.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerCommon.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerRequest.xml = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerRequest.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerRequest.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerRequest.xsd
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerResponse.xml = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerResponse.xml
+		RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerResponse.xsd = RegiXResources\RegiXAdapters\VesselsAdapter\RegistrationSearchByOwnerResponse.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060BB19C-5FB9-4402-A7AC-107B5ABE0FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060BB19C-5FB9-4402-A7AC-107B5ABE0FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060BB19C-5FB9-4402-A7AC-107B5ABE0FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060BB19C-5FB9-4402-A7AC-107B5ABE0FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE064A-02AF-42A0-A32A-E9B79E35C3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE064A-02AF-42A0-A32A-E9B79E35C3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE064A-02AF-42A0-A32A-E9B79E35C3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE064A-02AF-42A0-A32A-E9B79E35C3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018A326D-0AD3-4B89-9415-00A14E3C61F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018A326D-0AD3-4B89-9415-00A14E3C61F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018A326D-0AD3-4B89-9415-00A14E3C61F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018A326D-0AD3-4B89-9415-00A14E3C61F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5206A21-D531-4B12-94B2-4DD4FE9C5034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5206A21-D531-4B12-94B2-4DD4FE9C5034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5206A21-D531-4B12-94B2-4DD4FE9C5034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5206A21-D531-4B12-94B2-4DD4FE9C5034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EBD984-D80A-49C4-BFB0-54ECA899FB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EBD984-D80A-49C4-BFB0-54ECA899FB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EBD984-D80A-49C4-BFB0-54ECA899FB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EBD984-D80A-49C4-BFB0-54ECA899FB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4383270-E93B-40D6-B84C-3EF110C69D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4383270-E93B-40D6-B84C-3EF110C69D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4383270-E93B-40D6-B84C-3EF110C69D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4383270-E93B-40D6-B84C-3EF110C69D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22270AE0-3BAA-4083-98CE-F4964DF9098C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22270AE0-3BAA-4083-98CE-F4964DF9098C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22270AE0-3BAA-4083-98CE-F4964DF9098C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22270AE0-3BAA-4083-98CE-F4964DF9098C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490E2FD0-BF19-4AC8-8825-0BFA4A6F50A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490E2FD0-BF19-4AC8-8825-0BFA4A6F50A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490E2FD0-BF19-4AC8-8825-0BFA4A6F50A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490E2FD0-BF19-4AC8-8825-0BFA4A6F50A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B5F696-334A-47CE-8268-AEF715321C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B5F696-334A-47CE-8268-AEF715321C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B5F696-334A-47CE-8268-AEF715321C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B5F696-334A-47CE-8268-AEF715321C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65} = {25895CE2-CC7B-463A-A10B-29D344FCB4C1}
+		{9F95B34D-A787-4422-84A3-05AB3AEE5A8E} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+		{A4A786AF-1A80-4D41-A905-78C4BD6CDB64} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+		{2B4C8C62-0FFA-47AD-8741-55C31E5F1181} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+		{74F1B682-8B98-4DE2-989F-5250864FA457} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+		{F3FAEB20-AE38-41A4-B692-59F24872763E} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+		{9A5BE16B-1445-4282-A472-8CBF21855C7E} = {EAE0B3C6-0264-4091-AF5D-6D9CA7C8EC65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9F950E0-4A5E-4E10-9A19-DFB3E65F12FF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NRZ.Certificate\\NRZ.Certificate.csproj
+		SccProjectName1 = NRZ.Certificate
+		SccLocalPath1 = NRZ.Certificate
+		SccProjectUniqueName2 = NRZ.Web\\NRZ.Web.csproj
+		SccProjectName2 = NRZ.Web
+		SccLocalPath2 = NRZ.Web
+		SccProjectUniqueName3 = NRZ.Data\\NRZ.Data.csproj
+		SccProjectName3 = NRZ.Data
+		SccLocalPath3 = NRZ.Data
+		SccProjectUniqueName4 = NRZ.Services\\NRZ.Services.csproj
+		SccProjectName4 = NRZ.Services
+		SccLocalPath4 = NRZ.Services
+		SccProjectUniqueName5 = NRZ.Models\\NRZ.Models.csproj
+		SccProjectName5 = NRZ.Models
+		SccLocalPath5 = NRZ.Models
+		SccProjectUniqueName6 = NRZ.Shared\\NRZ.Shared.csproj
+		SccProjectName6 = NRZ.Shared
+		SccLocalPath6 = NRZ.Shared
+		SccProjectUniqueName7 = NRZ.RegiX.Client\\NRZ.RegiX.Client.csproj
+		SccProjectName7 = NRZ.RegiX.Client
+		SccLocalPath7 = NRZ.RegiX.Client
+		SccProjectUniqueName8 = NRZ.EAuthentication\\NRZ.EAuthentication.csproj
+		SccProjectName8 = NRZ.EAuthentication
+		SccLocalPath8 = NRZ.EAuthentication
+		SccProjectUniqueName9 = NRZ.Ts.Client\\NRZ.Ts.Client.csproj
+		SccProjectName9 = NRZ.Ts.Client
+		SccLocalPath9 = NRZ.Ts.Client
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NRZ.Web\\NRZ.Web.csproj
+		SccProjectName1 = NRZ.Web
+		SccLocalPath1 = NRZ.Web
+		SccProjectUniqueName2 = NRZ.Data\\NRZ.Data.csproj
+		SccProjectName2 = NRZ.Data
+		SccLocalPath2 = NRZ.Data
+		SccProjectUniqueName3 = NRZ.Services\\NRZ.Services.csproj
+		SccProjectName3 = NRZ.Services
+		SccLocalPath3 = NRZ.Services
+		SccProjectUniqueName4 = NRZ.Models\\NRZ.Models.csproj
+		SccProjectName4 = NRZ.Models
+		SccLocalPath4 = NRZ.Models
+		SccProjectUniqueName5 = NRZ.Shared\\NRZ.Shared.csproj
+		SccProjectName5 = NRZ.Shared
+		SccLocalPath5 = NRZ.Shared
+		SccProjectUniqueName6 = NRZ.Certificate\\NRZ.Certificate.csproj
+		SccProjectName6 = NRZ.Certificate
+		SccLocalPath6 = NRZ.Certificate
+		SccProjectUniqueName7 = NRZ.RegiX.Client\\NRZ.RegiX.Client.csproj
+		SccProjectName7 = NRZ.RegiX.Client
+		SccLocalPath7 = NRZ.RegiX.Client
+	EndGlobalSection
+EndGlobal

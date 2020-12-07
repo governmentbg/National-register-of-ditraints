@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:a41cf9c1-8dfc-4931-91b5-93c08150950d</a:MessageID>
+    <ActivityId CorrelationId="bb278461-5d27-4762-8478-97aa3cf4e0e7" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">b0faf47e-5416-4330-8a87-a6b9784cc265</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.GetActualStateV2</Operation>
+        <Argument>
+          <ActualStateRequestV2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/AV/TR/ActualStateRequestV2">
+            <UIC>201593305</UIC>
+          </ActualStateRequestV2>
+        </Argument>
+        <CallContext>
+          <ServiceURI />
+          <ServiceType>За административна услуга</ServiceType>
+          <EmployeeIdentifier>ndimitrova</EmployeeIdentifier>
+          <EmployeeNames>Надя Димитрова</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>Програмист</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.1.1.15</AdministrationOId>
+          <AdministrationName>Министерство на транспорта, информационните технологии и съобщенията</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>true</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetMotorVehicleRegistrationInfoV2Request xsi:schemaLocation="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV3Request GetMotorVehicleRegistrationInfoV3Request.xsd" xmlns="http://egov.bg/RegiX/MVR/MPS/GetMotorVehicleRegistrationInfoV3Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identifier>CA1234CA</Identifier>
+</GetMotorVehicleRegistrationInfoV2Request>

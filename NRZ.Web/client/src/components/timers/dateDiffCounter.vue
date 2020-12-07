@@ -1,0 +1,71 @@
+<template>
+  <div>
+    Timer:
+    <div :id="'timer' + _uid"></div>
+  </div>
+</template>
+
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+
+@Component
+export default class TimerComponent extends Vue {
+  @Prop({ required: true })
+  target!: number;
+  private time: number;
+  private displayText = "";
+  private interval: NodeJS.Timeout | null = null;
+  private el!: HTMLElement;
+
+  constructor() {
+    super();
+    this.time = Date.now();
+  }
+
+  startCounter() {
+    const that = this;
+    console.log("start counter");
+
+    this.interval = setInterval(this.calculateTime, 1000);
+  }
+
+  calculateTime() {
+    // Get today's date and time
+    const now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    const distance = this.time - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    this.displayText =
+      days + "д " + hours + "ч " + minutes + "м " + seconds + "с ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+      clearInterval(this.interval!);
+      this.displayText = "EXPIRED";
+    }
+    console.log(this.displayText);
+
+    this.el.innerHTML = this.displayText;
+  }
+
+  mounted() {
+      debugger
+    this.time = this.target;
+    this.el = document.getElementById(`timer${this._uid}`)!;
+    this.startCounter();
+  }
+}
+</script>
+
+<style>
+</style>

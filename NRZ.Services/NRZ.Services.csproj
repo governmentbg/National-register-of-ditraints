@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.7.18" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+    <PackageReference Include="System.Private.ServiceModel" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.7.0" />
+    <PackageReference Include="WcfCoreMtomEncoderV2" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NRZ.Data\NRZ.Data.csproj" />
+    <ProjectReference Include="..\NRZ.EAuthentication\NRZ.EAuthentication.csproj" />
+    <ProjectReference Include="..\NRZ.Models\NRZ.Models.csproj" />
+    <ProjectReference Include="..\NRZ.RegiX.Client\NRZ.RegiX.Client.csproj" />
+    <ProjectReference Include="..\NRZ.Shared\NRZ.Shared.csproj" />
+    <ProjectReference Include="..\NRZ.Ts.Client\NRZ.Ts.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EAuthentication\" />
+  </ItemGroup>
+
+</Project>

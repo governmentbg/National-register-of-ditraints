@@ -1,0 +1,36 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/IRegiXEntryPoint/ExecuteSynchronous</a:Action>
+    <a:MessageID>urn:uuid:438b5f12-be34-4659-9969-5f33be70e9d1</a:MessageID>
+    <ActivityId CorrelationId="74f8cc5c-7e9f-462a-83df-303e8f9fef70" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">d911609d-99da-463d-926f-e46e694fc835</ActivityId>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ExecuteSynchronous xmlns="http://tempuri.org/">
+      <request>
+        <Operation>TechnoLogica.RegiX.AVTRAdapter.APIService.ITRAPI.PersonInCompaniesSearch</Operation>
+        <Argument>
+          <SearchParticipationInCompaniesRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://egov.bg/RegiX/AV/TR/SearchParticipationInCompaniesRequest">
+            <EGN>1111111110</EGN>
+          </SearchParticipationInCompaniesRequest>
+        </Argument>
+        <CallContext>
+          <ServiceURI>132-11123-01.01.2016</ServiceURI>
+          <ServiceType>За проверовъчна дейност</ServiceType>
+          <EmployeeIdentifier>tl_ytoteva</EmployeeIdentifier>
+          <EmployeeNames>Йорданка Тотева</EmployeeNames>
+          <EmployeeAditionalIdentifier />
+          <EmployeePosition>SW Developer</EmployeePosition>
+          <AdministrationOId>2.16.100.1.1.1.1.15</AdministrationOId>
+          <AdministrationName>Министерство на транспорта, информационните технологии и съобщенията</AdministrationName>
+          <LawReason>За целите на разработката и тестването на RegiX.</LawReason>
+          <Remark />
+        </CallContext>
+        <SignResult>true</SignResult>
+        <ReturnAccessMatrix>true</ReturnAccessMatrix>
+      </request>
+    </ExecuteSynchronous>
+  </s:Body>
+</s:Envelope>
